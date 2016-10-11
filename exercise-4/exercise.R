@@ -11,21 +11,27 @@
 # to convert it a data.farme
 
 # Create a new variable by passing the USPersonalExpenditure to the data.frame function
-
+data("USPersonalExpenditure")
+my.data <- as.data.frame(USPersonalExpenditure)
 
 # What are the column names of your dataframe?
 
+# They are the years in increments of 5
 
 # Why are they so strange?
 
+colnames(my.data)
 
 # What are the row names of your dataframe?
 
+rownames(my.data)
 
 # Create a column `category` that is equal to your rownames
 
+my.data
 
 # How much money was spent on personal care in 1940?
+
 
 
 # How much money was spent on Food and Tobacco in 1960
